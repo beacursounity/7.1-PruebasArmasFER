@@ -43,7 +43,7 @@ public class FrancotiradorScript : MonoBehaviour {
         //Declaramos el objeto que recoge el impacto
         RaycastHit hitInfo;
         //Depuramos el rayo
-        //Debug.DrawRay(puntoDisparo.position, puntoDisparo.forward, Color.red, 5);
+        Debug.DrawRay(puntoDisparo.position, puntoDisparo.forward, Color.red, 5);
         //Lanzamos el rayo
         bool impactoConseguido = Physics.Raycast(rayo, out hitInfo, 25);
         //Evaluamos el impacto
